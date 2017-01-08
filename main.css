@@ -11,14 +11,23 @@ article {
   border-radius: 5px;
 }
 
-.mini-container{
+.mini-container {
   text-align: center;
 }
 
-.bot-zone button{
-  margin-left: 2px;
+.bot-zone {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+
 }
 
-.bot-zone a{
-  justify-content: flex-end;
+button {
+  background-color: #c95f5e;
+  border-color: #c95f5e;
+  color: white;
+}
+
+a {
+  color: #c95f5e;
 }
