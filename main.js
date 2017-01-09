@@ -43,4 +43,4 @@ var rdyQuote = quotes[randomQuote(1,32)];
 var quotesInto = document.getElementById("main-quote");
 quotesInto.innerHTML = '"' + rdyQuote + '"';
 
-var quotesInto = document.getElementById("btn-click-event");
+var quotesChange = document.getElementById("btn-click-event");

@@ -23,8 +23,13 @@ article {
     text-align: center;
     margin-left: 5px;
 }
+#btn-normal{
+  background-color: #7daef6;
+  color: white;
+  font-size: 20px;
+}
 
-button {
+#btn-click-event {
   background-color: #c95f5e;
   border-color: #c95f5e;
   color: white;
