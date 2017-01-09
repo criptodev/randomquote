@@ -3,6 +3,7 @@ body {
   padding-top: 5%;
   padding-left: 25%;
   padding-right: 25%;
+  font-family: sans-serif;
 }
 article {
   background-color: white;
@@ -14,11 +15,12 @@ article {
 
 .mini-container {
   text-align: center;
+  font-size: 20;
 }
 
 
 .bot-zone {
-    text-align: left;
+    text-align: center;
     margin-left: 5px;
 }
 
@@ -26,14 +28,18 @@ button {
   background-color: #c95f5e;
   border-color: #c95f5e;
   color: white;
+  padding: 4px;
 
 }
 
 .bot-zone2 {
     text-align: right;
-    padding-bottom: 5px;
 }
 
 a {
   color: #c95f5e;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  display: block;
+  position: relative;
 }
