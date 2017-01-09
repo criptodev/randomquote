@@ -35,15 +35,12 @@ var quotes = ["El imitar es connatural al hombre.",
 "El mando de muchos no es bueno; basta un solo jefe.",
 "El alma es aquello por lo que vivimos, sentimos y pensamos."]
 
-//console.log(quotes[5]);
-
 function randomQuote(ourMin, ourMax) {
-
   return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
 }
 var rdyQuote = quotes[randomQuote(1,32)];
 
 var quotesInto = document.getElementById("main-quote");
-quotesInto.innerHTML = rdyQuote;
+quotesInto.innerHTML = '"' + rdyQuote + '"';
 
-console.log(rdyQuote);
+var quotesInto = document.getElementById("btn-click-event");
