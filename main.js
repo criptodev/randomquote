@@ -38,7 +38,7 @@ var quotes = ["El imitar es connatural al hombre.",
 function randomQuote(ourMin, ourMax) {
   return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
 }
-var rdyQuote = quotes[randomQuote(1,32)];
+var rdyQuote = quotes[randomQuote(0,31)];
 
 var quotesInto = document.getElementById("main-quote");
 quotesInto.innerHTML = '"' + rdyQuote + '"';
